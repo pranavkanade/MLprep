@@ -30,6 +30,8 @@ print(accuracy)
 ex_measure = np.array([4,2,1,1,1,2,3,2,1])
 ex_measure = ex_measure.reshape(1, -1)
 # Try commenting above
+# the first att is no of test data points in this case = 2, to generalize use following
+# the data array should be list of lists.
 # ex_measure = ex_measure.reshape(len(ex_measure), -1)
 
 
